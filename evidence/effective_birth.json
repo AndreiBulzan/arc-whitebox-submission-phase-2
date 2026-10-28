@@ -1,0 +1,53 @@
+{
+  "report_pages": [
+    32,
+    53,
+    60
+  ],
+  "evidence_label": "broad statistical",
+  "dataset": {
+    "repository": "aicrowd/arc-whestbench-public-2026",
+    "revision": "ce926b7d1ced65faa668c01b94a43f8c4f43783d",
+    "split": "full",
+    "ids": [
+      641,
+      643,
+      645,
+      647,
+      649,
+      651,
+      653,
+      655
+    ]
+  },
+  "runtime": {
+    "flopscope": "0.12.0",
+    "whestbench": "0.16.0"
+  },
+  "records": [
+    {
+      "variant": "response_only",
+      "source_sha256": "0ce61275a56341c40614d9863db1bce652f86950a26faf8aedd04fc252a6cceb",
+      "original_receipt_sha256": "ae09ece65406d0ab737244239fb9eb3b99f354c7ff18aaeee8bdd7c4ce478ab7",
+      "raw_final_mse": 2.0628455832394366e-08,
+      "adjusted_score": 3.4047971210538786e-09,
+      "mean_flops": 363096098908.25
+    },
+    {
+      "variant": "effective_birth",
+      "source_sha256": "6c4ed5398b40388fa5d7dd160e1fa805913f1ac3692c4756f0f2947b74f66bc5",
+      "original_receipt_sha256": "52a1fb65d55bd514ec3d87cdbacbb0046b7725676c0f5e428675ad2e9a6891e8",
+      "raw_final_mse": 1.8400213686042832e-08,
+      "adjusted_score": 2.9752449143374484e-09,
+      "mean_flops": 355706450330.25
+    }
+  ],
+  "raw_improvement_percent": 10.80178838617849,
+  "adjusted_improvement_percent": 12.616088167493288,
+  "compute_reduction_percent": 2.03517707852523,
+  "raw_wins": 8,
+  "adjusted_wins": 8,
+  "scope": "Matched eight-network comparison of the combined effective-edge change with frozen response. Not a causal ablation of every term, not mini100, and not an untouched project-wide holdout.",
+  "later_failure": "This source later failed the residual gate on one of 100 mini networks. That failed bank is not represented by the eight-network score. A subsequent hardened variant is included in the mainline history.",
+  "implementation": "../solution/module_04.py contains the effective_leg used by the final estimator; it is not the entire October 4 snapshot."
+}

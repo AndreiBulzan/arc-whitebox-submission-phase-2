@@ -1,0 +1,42 @@
+{
+  "submission_id": 337559,
+  "submission_url": "https://www.aicrowd.com/challenges/arc-white-box-estimation-challenge-2026/submissions/337559",
+  "evaluated_date_utc": "2026-10-21",
+  "evidence_label": "broad statistical",
+  "scope": "Published AIcrowd Phase 2 leaderboard evaluation; not a private prize re-evaluation.",
+  "public_leaderboard": {
+    "network_count": 50,
+    "adjusted_final_layer_score": 1.7452760759133393e-09,
+    "mean_final_layer_mse": 1.4153319529697229e-08,
+    "mean_metered_flops": 271163723666.4,
+    "score_definition": "mean over networks of MSE_m * max(0.1, FLOPs_m / 2**41)"
+  },
+  "complete_execution": {
+    "network_count": 100,
+    "completed": 100,
+    "failures": 0,
+    "maximum_predict_wall_seconds": 111.1423213979997,
+    "maximum_residual_wall_seconds": 0.2788109370000029,
+    "maximum_setup_wall_seconds": 3.7818753190003918
+  },
+  "runtime": {
+    "python": "3.10",
+    "flopscope": "0.12.3",
+    "whestbench": "0.16.2"
+  },
+  "original_submission_archive_sha256": "a39ebdd96c5b2e890b629cb2a7de3e0504f3edc0e6bcdacaeabfa055743946d6",
+  "estimator_sha256": "bbd6613ae64905c32b621233028d813ae85d294e4cbb2e9d6327330c6b5103c8",
+  "corrector_weights_sha256": "01727d80e289443748720545a690874dc08d13bd243383de8093717f1c821c4d",
+  "release_note": "All 21 solution files, including the package manifest, are byte-identical to the submitted archive. Report document metadata was minimized; every page's text, links and rendered appearance were checked against the source document.",
+  "report": {
+    "pages": 64,
+    "source_pdf_sha256": "9a808e994d654dbf5d845741847f0e53ed7d1cd56132ceedf7144e2cf1c2b10c",
+    "public_pdf_sha256": "09d9b18de8218b92fe30a046f2664ef104451d9675bf578b2ba4b21942e1d3b6",
+    "metadata_minimized": true,
+    "all_page_text_and_render_unchanged": true,
+    "phase1_report_link_preserved": true,
+    "code_repository_link_preserved": true,
+    "title": "Sixteen Layers probed in 2 minutes",
+    "file": "report.pdf"
+  }
+}

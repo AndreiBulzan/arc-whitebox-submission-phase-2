@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "api_version": "2.0",
+  "entrypoint": {
+    "module": "estimator",
+    "class": "Estimator"
+  },
+  "python": {
+    "min_version": "3.10"
+  },
+  "files": [
+    {
+      "name": "ATTRIBUTION.txt",
+      "sha256": "8594b7b8d5a0404af641aefd33be0b43dc974950bf52f9885305c83d52c2e6c2"
+    },
+    {
+      "name": "LICENSE",
+      "sha256": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740"
+    },
+    {
+      "name": "LICENSE_flip_cpd.txt",
+      "sha256": "77c054e901d012d441ca217a22cbca1ed9b2c13cb8287c2438454419857a522c"
+    },
+    {
+      "name": "_zero_store.py",
+      "sha256": "a94daa8c6342e7fa36f8c87c7569400683c44b0d91dcd730155ee0a441c8ba07"
+    },
+    {
+      "name": "data_01.npz",
+      "sha256": "a0a0bd043e1d98c62db3892d8d805aed37e32077467f25a896f4e69599314e09"
+    },
+    {
+      "name": "data_02.npz",
+      "sha256": "2854f460b406ac42e217c7c2289d467eb930559fdd8e30e9824482a40a43d685"
+    },
+    {
+      "name": "data_03.npz",
+      "sha256": "3c849917f4650016f235f5ea0bd2436bf4eb611a4a010cbcc7070d6227aabf46"
+    },
+    {
+      "name": "data_04.npz",
+      "sha256": "b4a0e597e8853d7ac4bf25dd8b1674511de815ad7331127256f60b526b244d2c"
+    },
+    {
+      "name": "estimator.py",
+      "sha256": "bbd6613ae64905c32b621233028d813ae85d294e4cbb2e9d6327330c6b5103c8"
+    },
+    {
+      "name": "module_01.py",
+      "sha256": "00c1482a91d7956082b0470feb0f6f6146f1f3783f79e46e15a265ebfd1b0bc5"
+    },
+    {
+      "name": "module_02.py",
+      "sha256": "b3742685152798c7f93501cda7f13c4ef4fb0a81cef2a84ea7cc78cfb93c851c"
+    },
+    {
+      "name": "module_03.py",
+      "sha256": "f567570f3a6e99b4c019078037eec78cd43ec333bdabad5701020823582d83b3"
+    },
+    {
+      "name": "module_04.py",
+      "sha256": "551cf0016d351095232566a2398c3a98c556692322827193b03972ea5f4bffa9"
+    },
+    {
+      "name": "module_05.py",
+      "sha256": "431ce1d155f358d8110c4bc6db7ab974d0658e3f772e9ae38437492eff80e613"
+    },
+    {
+      "name": "module_06.py",
+      "sha256": "b055ef33afbd7d205bd285b9eb88065847daf3fd1db8ec01cb5f93d6418dc506"
+    },
+    {
+      "name": "module_07.py",
+      "sha256": "714b89b944abf548b027f42fb24103265551374339b34c704de76b1b612571aa"
+    },
+    {
+      "name": "module_08.py",
+      "sha256": "e2fac83abae81ed7750fa346bd486d22e6c351a3e311230c2096009f184b1a9a"
+    },
+    {
+      "name": "module_rgc.py",
+      "sha256": "9c7650c0e5273b7581a0eb1e2ddf77de976ff2e2a01be3ecf45bcd9b433ef66e"
+    },
+    {
+      "name": "ragged_window.py",
+      "sha256": "d6fc13ee18268efb8b58bb5e5a7853f2b9869dd6c9928d1ca61729a38dcc0f36"
+    },
+    {
+      "name": "rgc_rnn_weights.npz",
+      "sha256": "01727d80e289443748720545a690874dc08d13bd243383de8093717f1c821c4d"
+    }
+  ]
+}

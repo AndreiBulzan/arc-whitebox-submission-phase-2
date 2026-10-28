@@ -1,0 +1,43 @@
+{
+  "report_page": 52,
+  "records": [
+    {
+      "method": "sixteen-rule cubature",
+      "evidence_label": "component",
+      "development_network": 0,
+      "raw_final_mse": 1.3423917533117447e-09,
+      "flops": 610846246297350,
+      "budget_multiple": 277.7807123026605,
+      "competition_budget_eligible": false,
+      "source_sha256": "fcb7d0c31cc3b52a641cdf4af8c30720cc143afd37b8e9d6d9d8f9ecc7e58239",
+      "original_checkpoint_record_sha256": "b06084521e4ee0704240c6ceb9e9343f4b0c63ddb2fdccec1f551d75cc8746c8",
+      "implementation_in_this_release": false,
+      "scope": "Recorded over-budget research execution; no valid competition adjusted score. Full cubature implementation is not present in this local export."
+    },
+    {
+      "method": "eight-rule cubature",
+      "evidence_label": "component",
+      "development_network": 0,
+      "raw_final_mse": 2.1814159367750108e-09,
+      "flops": 341714224668422,
+      "budget_multiple": 155.39363842818693,
+      "competition_budget_eligible": false,
+      "source_sha256": "087dea2c82742dbee41ee27960f0ba18e04bc4c5671f4d0138c95d9a4d544b31",
+      "original_checkpoint_record_sha256": "61d60cd1bd0a6953d698d0f1fc705c1cc4768dfbbcfc499924daf24f61f68864",
+      "implementation_in_this_release": false,
+      "scope": "Recorded over-budget research execution; no valid competition adjusted score. Full cubature implementation is not present in this local export."
+    },
+    {
+      "method": "accuracy-first checkpoint inside the FLOP cap",
+      "evidence_label": "broad statistical",
+      "raw_final_mse": 1.4648767236261998e-08,
+      "adjusted_score": 1.3106190996327387e-08,
+      "compute_utilization": 0.8946958324168008,
+      "source_sha256": "9fef8f7df4362bb0f165e7fc8a7d86d8955ea45c54f2f9fe285354e696643817",
+      "original_checkpoint_record_sha256": "3213cb2218fa841f801df2a7638a98d72738d73abf8a73ecb3783bd212114ddf",
+      "implementation_in_this_release": false,
+      "scope": "Aggregate checkpoint record only; the complete evaluation panel and source are not part of this export."
+    }
+  ],
+  "coverage": "Source-bound checkpoint summaries, not a runnable reproduction of every point on the research frontier."
+}

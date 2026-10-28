@@ -1,0 +1,173 @@
+{
+  "report_pages": [
+    3,
+    28,
+    32,
+    54,
+    60
+  ],
+  "records": [
+    {
+      "variant": "v29_level1",
+      "date": "2026-09-11",
+      "evidence_label": "broad statistical",
+      "networks": 100,
+      "adjusted_score": 7.445668308267668e-09,
+      "raw_final_mse": 2.228455606712032e-08,
+      "mean_flops": 734732442996.12,
+      "failures": 0,
+      "estimator_sha256": "303baae53eba1ecd060840231aca556d41ef51520b4aa3dde080bae40098b407",
+      "original_receipt_sha256": "2e99fe2f0870f26eb6ba9e7b631ffe48871fa7581bfac51a2965ffeb93f49acb",
+      "runtime": {
+        "whestbench": "0.16.0",
+        "flopscope": "0.12.0",
+        "numpy": "2.2.6"
+      },
+      "dataset": {
+        "repo": "aicrowd/arc-whestbench-public-2026",
+        "revision": "v2-phase2",
+        "revision_commit": "ce926b7d1ced65faa668c01b94a43f8c4f43783d",
+        "split": "mini"
+      }
+    },
+    {
+      "variant": "birth25",
+      "date": "2026-09-22",
+      "evidence_label": "broad statistical",
+      "networks": 100,
+      "adjusted_score": 3.823068989345519e-09,
+      "raw_final_mse": 2.1598613102469244e-08,
+      "mean_flops": 389240032282.22,
+      "failures": 0,
+      "estimator_sha256": "d75b0e2070965dfd0885f393cd1969343c517e658d6e97b43f487c6af746e239",
+      "original_receipt_sha256": "60d304fdc81e9b5e2f0ede9c494e9280d008847ea990d8f15ed8bdf980277e43",
+      "runtime": {
+        "whestbench": "0.16.0",
+        "flopscope": "0.12.0",
+        "numpy": "2.2.6"
+      },
+      "dataset": {
+        "repo": "aicrowd/arc-whestbench-public-2026",
+        "revision": "v2-phase2",
+        "revision_commit": "ce926b7d1ced65faa668c01b94a43f8c4f43783d",
+        "split": "mini"
+      }
+    },
+    {
+      "variant": "effective_birth_hard32",
+      "date": "2026-10-04",
+      "evidence_label": "broad statistical",
+      "networks": 100,
+      "adjusted_score": 3.0814074867432115e-09,
+      "raw_final_mse": 1.8031495301329413e-08,
+      "mean_flops": 375679251523.22,
+      "failures": 0,
+      "estimator_sha256": "50460d871cd0ef60061f94cb4ece930a22964cb0dc70c65787b23b3046a1be25",
+      "original_receipt_sha256": "0b779086c2a52df56ebe8123e9b879424f7831133a9bc4480c44f458691fbf30",
+      "runtime": {
+        "whestbench": "0.16.0",
+        "flopscope": "0.12.0",
+        "numpy": "2.2.6"
+      },
+      "dataset": {
+        "repo": "aicrowd/arc-whestbench-public-2026",
+        "revision": "v2-phase2",
+        "revision_commit": "ce926b7d1ced65faa668c01b94a43f8c4f43783d",
+        "split": "mini"
+      }
+    },
+    {
+      "variant": "dense_ranges",
+      "date": "2026-10-05",
+      "evidence_label": "broad statistical",
+      "networks": 100,
+      "adjusted_score": 2.9306182946582507e-09,
+      "raw_final_mse": 1.8033512203530223e-08,
+      "mean_flops": 357264687647.86,
+      "failures": 0,
+      "estimator_sha256": "b2053fe192d763fdd780353096b9a7cc78af769cd6874768bac6db9f9a70b623",
+      "original_receipt_sha256": "8172e38300d67555662ca3017c1c7272a93451451daaff3e5bec491adde6fec9",
+      "runtime": {
+        "whestbench": "0.16.0",
+        "flopscope": "0.12.0",
+        "numpy": "2.2.6"
+      },
+      "dataset": {
+        "repo": "aicrowd/arc-whestbench-public-2026",
+        "revision": "v2-phase2",
+        "revision_commit": "ce926b7d1ced65faa668c01b94a43f8c4f43783d",
+        "split": "mini"
+      }
+    },
+    {
+      "variant": "resident_cached",
+      "date": "2026-10-10",
+      "evidence_label": "broad statistical",
+      "networks": 100,
+      "adjusted_score": 2.57649009187516e-09,
+      "raw_final_mse": 1.795242601687619e-08,
+      "mean_flops": 315499350994.76,
+      "failures": 0,
+      "estimator_sha256": "65935d1d6898e5d16163632c28b20d987cd37352b49ad3ec50645fc54685ab46",
+      "original_receipt_sha256": "9a4d26c9835edabe0b506fc3cd6ec9d353cfaac0276d4cf1165e0124b6217fdb",
+      "runtime": {
+        "whestbench": "0.16.0",
+        "flopscope": "0.12.0",
+        "numpy": "2.2.6"
+      },
+      "dataset": {
+        "repo": "aicrowd/arc-whestbench-public-2026",
+        "revision": "v2-phase2",
+        "revision_commit": "ce926b7d1ced65faa668c01b94a43f8c4f43783d",
+        "split": "mini"
+      }
+    },
+    {
+      "variant": "split_all",
+      "date": "2026-10-12",
+      "evidence_label": "broad statistical",
+      "networks": 100,
+      "adjusted_score": 2.465288219721135e-09,
+      "raw_final_mse": 1.7957342750563044e-08,
+      "mean_flops": 301801777448.87,
+      "failures": 0,
+      "estimator_sha256": "970e7e9586799a290698b9fc74843f5641a249539462557d46c8997eb9cc29c2",
+      "original_receipt_sha256": "699b44bb9758a099c6ad3d737b70aa535692e863906c010d24202cc01bd7ad76",
+      "runtime": {
+        "whestbench": "0.16.1",
+        "flopscope": "0.12.1",
+        "numpy": "2.2.6"
+      },
+      "dataset": {
+        "repo": "aicrowd/arc-whestbench-public-2026",
+        "revision": "v2-phase2",
+        "revision_commit": "ce926b7d1ced65faa668c01b94a43f8c4f43783d",
+        "split": "mini"
+      }
+    },
+    {
+      "variant": "bundle_l6",
+      "date": "2026-10-13",
+      "evidence_label": "broad statistical",
+      "networks": 100,
+      "adjusted_score": 2.39914139631351e-09,
+      "raw_final_mse": 1.7963602365611564e-08,
+      "mean_flops": 293612244885.32,
+      "failures": 0,
+      "estimator_sha256": "981f2b6ed04a0e2a026eb5d655d9a31dcb8ca5fa7275ec4a954c993677d99985",
+      "original_receipt_sha256": "2ae954543bfabad216f607786a824e28ffcce133a0efb56403c21ad8207047b8",
+      "runtime": {
+        "whestbench": "0.16.1",
+        "flopscope": "0.12.1",
+        "numpy": "2.2.6"
+      },
+      "dataset": {
+        "repo": "aicrowd/arc-whestbench-public-2026",
+        "revision": "v2-phase2",
+        "revision_commit": "ce926b7d1ced65faa668c01b94a43f8c4f43783d",
+        "split": "mini"
+      }
+    }
+  ],
+  "scope": "Historical local mini100 measurements, with their original runtime versions. These exported numerical rows omit host metadata, paths and logs. Earlier source revisions are not all included; the final graded implementation is in solution/."
+}

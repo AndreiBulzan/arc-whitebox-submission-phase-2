@@ -1,0 +1,5 @@
+# Tested inference and local evaluation environment (Python 3.10).
+flopscope==0.12.3
+whestbench==0.16.2
+numpy==2.2.6
+scipy==1.15.3

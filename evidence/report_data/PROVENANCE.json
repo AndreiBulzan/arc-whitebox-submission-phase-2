@@ -1,0 +1,38 @@
+{
+  "origin": "Numerical inputs used by the report, exported without modification.",
+  "files": [
+    {
+      "file": "baselines.json",
+      "sha256": "3d3614e03b538e3030f402b6d6d6455f31696ad99ce6298187a4d21822f95a45",
+      "bytes": 4036
+    },
+    {
+      "file": "gate.json",
+      "sha256": "eab8c7394305138a47884cc51dc53469aeef8146d8ea2743253e84acef64672f",
+      "bytes": 91440
+    },
+    {
+      "file": "physics.json",
+      "sha256": "d5beda7817de8c933b65502398ef505e2513edfdb52ef1c5c4024332bad6933b",
+      "bytes": 335378
+    },
+    {
+      "file": "story.json",
+      "sha256": "bb50052c6753530ccd297eda82722a94def304d5e87597478fe5ab6726acf681",
+      "bytes": 25734
+    },
+    {
+      "file": "stock_ops_xfin.json",
+      "sha256": "c41a4c2ec54739fd50ad0eae2095fca0a9adf5c8e13ecf8fed73588f5e272be2",
+      "bytes": 4051
+    }
+  ],
+  "notes": {
+    "baselines.json": "Monte Carlo, mean propagation, Gaussian covariance and estimator comparisons on fresh networks 700 and 701. Error arrays subtract an estimated reference sampling floor; small negative entries are not clipped.",
+    "gate.json": "Saved scalar-gate and marginal illustration data; these are offline research quantities.",
+    "physics.json": "Statistics for 64 fresh networks 700 through 763, from the report's W24j/native-policy captures and Monte Carlo moments. They are not a second AIcrowd grade of the adaptive final package.",
+    "story.json": "Saved distributions and explanatory statistics used by the report; not graded predictions.",
+    "stock_ops_xfin.json": "One local stock execution's operator counts and timing breakdown; component evidence about this execution, not a universal machine-time model."
+  },
+  "reproduction_boundary": "These files permit inspection and replotting of the report inputs. Complete training corpora, Monte Carlo banks and original capture jobs are not distributed."
+}

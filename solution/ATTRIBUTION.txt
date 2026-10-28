@@ -1,0 +1,83 @@
+Provenance and attribution
+
+This submission derives from Team 504aldo's publicly released MIT-licensed
+K3 cumulant-propagation estimator, including its V29 lineage and published
+coefficient tables. The inherited method is not claimed as our invention.
+Original source: https://github.com/504aldo/whest-p2-cumulant-k3
+Original public description: https://discourse.aicrowd.com/t/18218
+Copyright (c) 2026 504aldo. The complete MIT license is included in LICENSE
+and retained at the head of the shipped Python source files.
+
+Work added in this capsule includes effective birth-leg construction,
+auxiliary source-marginal response features with offline learned coefficients,
+current-support/query scheduling and final-layer allocation, bounded recursive
+multiplication plans, exact contraction and nonlinear-program rewrites,
+immutable coefficient caching, and lifetime-based buffer reuse. The selected
+release combines the r8 implementation with the q31k4 statistical additions
+and the October 16 public-network response refit.
+These additions extend and optimize the original method; organizer review
+determines whether they satisfy the substantial-original-contribution criterion.
+
+The supplied coefficients.npz contains numeric coefficient data, not executable
+code or per-instance predictions. The latest response
+coefficients were fitted on all 100 public mini networks, with grouped
+cross-validation used during selection. Its reported mini100 score is
+in-sample for this refit, not an independent private evaluation. Earlier
+versions used smaller public training panels. There is no seed/name
+lookup of predictions in the estimator. The inherited calibration constants
+and original method remain credited to their original author.
+
+LLM assistance was used extensively for code development, optimization and
+analysis in this capsule. Measurements, limitations, and rejected variants are
+retained in the accompanying local evidence, which is not part of this upload.
+This note is provenance disclosure, not a final algorithmic-contribution write-up.
+
+Release r6 prepares the original capacity geometries during setup, reusing
+only owned scratch preparation graphs. It uses public fnp.zeros for zero
+initialization, omits unused basis views, and skips full-size identity slices
+when a prepared view already has the exact required dimensions. All numerical
+operations remain metered. Coefficients, recurrence, ranks and support gates
+are unchanged. Cache invalidation precedes stage storage growth.
+
+Release r8 retains the configured confined rank as an exact capacity
+dimension instead of rounding that dimension up with variable support sizes.
+All logical product dimensions, arithmetic, coefficients and model settings
+are unchanged. Other capacity dimensions keep their original rounding.
+
+October 16 additions: the quadratic-chaos (3,1) contribution credits
+https://discourse.aicrowd.com/t/18246 (kai_leal_gonzalez); its weight was
+calibrated locally. k4model.npz holds an offline fitted fourth-diagonal model.
+Both numeric coefficient files are byte-identical to the peer
+submission_final.tar.gz archive with SHA256
+98079cffd86bd58aa6ff0698ba75f93f43edeaa104bb14c01b90fda34bef4834.
+The peer archive failed the stock-client five-second setup check. This release
+uses the previously qualified r8 implementation of the same statistical model
+to avoid rebuilding redundant owned-scratch plans during setup. No network
+identity, benchmark answer, target array or research hook is used at inference.
+
+2026-10-17 experimental shared fourth-response carrier. Codex implemented the
+live LA/LP folding, diagonal/duplex accounting, own-state source adapter and
+standalone packaging. Claude fitted 432 shared scale-law coefficients offline
+on matched public networks 0,1,2,3. Training used supplied variance-image targets
+and reference gate gains; prediction uses its own state only. No network IDs,
+saved activations, moment targets or reference means enter prediction. Rule
+selection used eight additional reused public development networks. This is
+not pristine holdout evidence. Existing fitted head and k4model remain frozen.
+All inherited attributions and the Team504aldo MIT license are retained.
+Local candidate only; not promoted or submitted.
+
+Covariance block algorithm: Khoruzhii, Gelss, Pokutta, arXiv2511.10786v2; flip-cpd MIT commit9eeb17f487f14103d7128cf290ae61535d8983b1.
+
+2026-10-21 time-aware recursion depth (Claude). Before each hidden layer the
+estimator reads the standard-library monotonic clock and selects how deep the
+existing exact Strassen-Winograd plans recurse: this package's native policy
+(W24j arithmetic with the exact 2304 level-7 template and setup trim, argon_2 and
+Codex; small rank-320 tight layouts, Codex) when the elapsed time leaves room;
+else every rank-320 product at level 5 (the cand_w21a_v2 policy, argon_2); else
+additionally level 7 disabled. A dense metered matmul is kept only as an
+emergency fallback when even the shallowest tier could not finish inside the
+wall-clock cap. The level-5 fallback capacity geometries are compiled at setup
+from shapes only. Model state, ranks, supports and coefficients are identical in
+every tier; only the billed FLOP count, floating-point summation order and wall
+time differ, so billed FLOPs can vary slightly between runs. The clock drives
+control flow only; all arithmetic remains public flopscope operations.
